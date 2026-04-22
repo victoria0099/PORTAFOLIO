@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MI PORTAFOLIO</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/bc/b1/03bcb1a2-463e-a04a-3874-fe9bf7dd0558/artwork.jpg/400x400bb.webp"
+                alt="logo" class="logo">
+            <div>
+                <ul class="menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre_mi">Sobre Mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#formulario">Formulario</a></li>
+                    <li><a href="mascotas.html">Mascotas</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id ="inicio">
+        <div class="fondo_seccion">
+            <h1 class="h1_class">HI! I'M VICTORIA</h1>
+        </div>
+    </section>
+
+    <section id="sobre_mi">
+        <div class="caja_class">
+            <div class="imagen_class">
+                <img src="WhatsApp Image 2026-04-19 at 12.26.56 PM.jpeg" alt="Mi imagen">
+            </div>
+
+            <div class="contenedor">
+                <h2 class="titulo">Sobre Mí</h2>
+                <p>
+                    
+                    <br>
+                    Soy Victoria Carolina Sutachan Maestre, coder en Riwi y trabajadora independiente como manicurista.
+                    Mi camino profesional se caracteriza por la integración entre la tecnología y el arte, dos áreas que forman parte esencial de mi identidad y de la manera en que creo y aprendo.
+                    Me considero una persona curiosa, y es precisamente esa curiosidad la que me ha llevado a explorar distintos campos del conocimiento.
+                    Disfruto profundamente actividades como dibujar, pintar, crear, escuchar música y leer, ya que alimentan mi proceso creativo y mi forma de ver el mundo.
+                    Me apasiona aprender constantemente y descubrir nuevas maneras de expresar ideas.
+                    Actualmente, tengo como objetivo convertirme en una excelente programadora, alcanzar un nivel de inglés fluido y culminar mi formación en sociología y artes.
+                    Mi propósito es integrar estas disciplinas para desarrollar proyectos que conecten la tecnología, la creatividad y el análisis social, generando impacto y valor.
+                    Mi enfoque está basado en la creación con propósito, el aprendizaje continuo y la exploración constante, elementos que guían tanto mi desarrollo personal como profesional.
+                    me gusta aprender cosas nuevas y mejorar mis habilidades en el desarrollo web.
+                    <br>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <div class="seccion_animales">
+            <h2 class="titulo">Mis proyectos</h2>
+                <ul>
+                <li><a href="terrestres.html">Investigación animales terrestres</a></li>
+                <li><a href="marinos.html">Investigación animales marinos</a></li>
+                <li><a href="aereos.html">investigación animales aéreos</a></li>
+                <li><a href="mascotas.html" target="_blank">Mascotas</a></li>
+                </ul>
+        </div>
+    </section>
+    <section id="formulario">
+        <div class="formulario_class">
+            <h2 class="titulo">Formulario de Contacto</h2> 
+            <form action="index.html" method="get">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="phone"> Numero telefonico:</label>
+                <input type="number" id="phone" name="phone" required><br><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+    <h1 id="titulo">Hola</h1>
+    <button onclick="cambiarTitulo()">Cambiar</button>
+    <button onclick="cambiarColor()">Cambiar Color</button>
+    <button onclick="reiniciarTextoColor()">Reiniciar </button>
+    <script src="script.js"></script>
+    
+
+</body>
